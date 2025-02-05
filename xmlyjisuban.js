@@ -17,7 +17,6 @@
 [rewrite_local]
 # >喜马拉雅极速版
 ^https?:\/\/.+ximalaya.com\/(fmobile-user\/homePage|pizza-category\/mypage\/operation)\/ url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/ximalayajisuban.js
-^https?:\/\/.+ximalaya.com\/(fmobile-track\/fmobile\/track\/playpage|mobile\/track\/pay)\/ url script-request-header https://raw.githubusercontent.com/WeiGiegie/666/main/ximalayajisuban.js
 ^https?://adse\.wsa\.ximalaya\.com/ url reject-dict
 ^https?://passport\.ximalaya\.com/user-http-app/v1/token/refresh url reject-dict
 ^https?://adse\.ximalaya\.com url reject-dict
